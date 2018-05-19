@@ -1,7 +1,7 @@
 Package: TestPackage2
 Type: Package
 Title: Addition Of Complex Numbers
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: person("Matteo", "Ciciani", email = "matteo.ciciani@gmail.com", role = c("aut", "cre"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Defines two S4 classes to represent complex numbers.
@@ -11,11 +11,11 @@ Encoding: UTF-8
 LazyData: true
 Collate:
     'TestPackage2.R'
-    'functions.R'
     'generics.R'
     'myComplex2.R'
     'myComplex.R'
     'methods.R'
-Imports: S4Vectors,
-    methods
+    'functions.R'
+Imports: S4Vectors (>= 0.19.4),
+    methods (>= 3.5.0)
 RoxygenNote: 6.0.1

@@ -1,6 +1,14 @@
+#' myComplex objects
+#'
+#' An S4 class to represent complex numbers
+#'
+#' @slot a real part
+#' @slot b imaginary part
+#'
 #' @import methods
+#' @export myComplex
+#' @exportClass myComplex
 myComplex <- setClass("myComplex", slots = c(a = "numeric", b = "numeric"))
-c <- myComplex(a = 1.2, b = 3.5)
 
 setValidity("myComplex", function(object) {
   msg <- NULL
