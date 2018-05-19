@@ -1,0 +1,11 @@
+Package: TestPackage2
+Type: Package
+Title: Addition Of Complex Numbers
+Version: 0.0.0.9000
+Authors@R: person("Matteo", "Ciciani", email = "matteo.ciciani@gmail.com", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Defines two S4 classes to represent complex numbers.
+    Defines the addition of two complex numbers.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
