@@ -1,7 +1,7 @@
 Package: TestPackage2
 Type: Package
 Title: Addition Of Complex Numbers
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person("Matteo", "Ciciani", email = "matteo.ciciani@gmail.com", role = c("aut", "cre"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Defines two S4 classes to represent complex numbers.
@@ -9,3 +9,13 @@ Description: Defines two S4 classes to represent complex numbers.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Collate:
+    'TestPackage2.R'
+    'functions.R'
+    'generics.R'
+    'myComplex2.R'
+    'myComplex.R'
+    'methods.R'
+Imports: S4Vectors,
+    methods
+RoxygenNote: 6.0.1
