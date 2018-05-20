@@ -7,7 +7,7 @@
 real(object)
 }
 \arguments{
-\item{An}{object of class myComplex or myComplex2}
+\item{object}{An object of class myComplex or myComplex2}
 }
 \value{
 The real part of the complex number

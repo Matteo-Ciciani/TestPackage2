@@ -4,6 +4,8 @@
 #'
 #' @import methods
 #' @importClassesFrom S4Vectors SimpleList
+#' @export myComplex2
+#' @exportClass myComplex2
 myComplex2 <- setClass("myComplex2", contains = "SimpleList")
 
 setValidity("myComplex2", function(object) {

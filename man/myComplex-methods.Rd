@@ -4,9 +4,22 @@
 \name{myComplex-methods}
 \alias{myComplex-methods}
 \alias{show,myComplex-method}
+\alias{real,myComplex-method}
+\alias{+,myComplex,ANY-method}
 \title{Methods for \code{\link{myComplex}} class}
 \usage{
 \S4method{show}{myComplex}(object)
+
+\S4method{real}{myComplex}(object)
+
+\S4method{+}{myComplex,ANY}(e1, e2)
+}
+\arguments{
+\item{object}{An object of class myComplex}
+
+\item{e1}{An object of class myComplex}
+
+\item{e2}{An object of class \code{ANY}}
 }
 \description{
 Methods for \code{\link{myComplex}} class
