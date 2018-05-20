@@ -1,3 +1,7 @@
+#' myComplex2 object
+#'
+#' An S4 class to represent complex numbers
+#'
 #' @import methods
 #' @importClassesFrom S4Vectors SimpleList
 myComplex2 <- setClass("myComplex2", contains = "SimpleList")

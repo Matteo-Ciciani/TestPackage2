@@ -1,6 +1,12 @@
 #' @include myComplex.R myComplex2.R generics.R
 NULL
 
+#' Methods for \code{\link{myComplex}} class
+#'
+#' @name myComplex-methods
+NULL
+
+#' @rdname myComplex-methods
 setMethod("show", signature = "myComplex", definition = function(object) {
   cat("(", object@a, ", ", object@b, ")", sep = "")
   invisible(NULL)
