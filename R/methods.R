@@ -8,7 +8,7 @@ NULL
 #' @param e2 An object of class \code{ANY}
 #'
 #' @name myComplex-methods
-NUL
+NULL
 
 #' Methods for \code{\link{myComplex2}} class
 #'
